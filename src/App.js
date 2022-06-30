@@ -12,6 +12,8 @@ import SupportPage from "./Support/SupportPage";
 
 export const RenderContext = createContext()
 
+
+
 function App() {
 
     const [cards, setCard] = useState([
