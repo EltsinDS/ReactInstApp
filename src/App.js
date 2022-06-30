@@ -18,6 +18,8 @@ export const RenderContext = createContext()
 
 function App() {
 
+
+
     const [cards, setCard] = useState([
         { name: 'authorization', rendered: true, tag: <Authorization />},
         { name: 'newsFeed', rendered: false, tag: <NewsFeed /> },
